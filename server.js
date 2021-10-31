@@ -20,7 +20,7 @@ app.use(middleware.logger);
 //	res.send('Hello express');
 //});
 app.get('/about', middleware.requireAuthentication, function(req, res){
-	res.send('About Us');
+	res.send('About Us!!');
 });
 //app.get('/login', function(req, res){
 //	res.send('login page');
